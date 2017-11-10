@@ -1,4 +1,4 @@
-<?php echo excerpt('Aqui você inseri o número de caracteres desejados'); ?>
+<?php echo excerpt('Aqui você digita o número de caracteres desejados'); ?>
 
 // Limite de caracteres
 function excerpt($limit) {
