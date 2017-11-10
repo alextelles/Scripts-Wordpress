@@ -1,4 +1,5 @@
-<?php echo excerpt('Aqui você digita o número de caracteres desejados'); ?>
+
+// Coloque o código abaixo no arquivo functions.php do seu tema. O número 80 é a quantidade de caracteres a exibir.
 
 // Limite de caracteres
 function excerpt($limit) {
@@ -12,3 +13,7 @@ $excerpt = implode(" ",$excerpt);
 $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
 return $excerpt;
 }
+
+//Coloque o loop abaixo no seu codigo
+<?php echo excerpt('Aqui você digita o número de caracteres desejados'); ?>
+
